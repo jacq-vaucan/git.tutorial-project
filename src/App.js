@@ -31,6 +31,7 @@ function App() {
     <div className="App">
       <Header title="React JS Blog" />
       <Nav />
+      
       <Routes>
         <Route path="/" element={<Home 
             isLoading={isLoading}
